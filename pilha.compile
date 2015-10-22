@@ -1,0 +1,3 @@
+lex pilha
+yacc -d pilha.y
+cc lex.yy.c y.tab.c -o pilha.ex1
