@@ -1,0 +1,16 @@
+%{
+#include <stdio.h>
+#include <string.h>
+#include "y.tab.h"
+%}
+%%
+
+pop			return TOKPOP;
+\(			return OPENP;
+[0-9]+			yylval.number=atoi(yytext); return NUMBER;
+\)			return CLOSEP;
+push			return TOKPUSH;
+list			return TOKLIST;
+\n			/* ignorar fim de linha*/
+[ \t]+               	/* ignorar espaco em branco */
+%%
