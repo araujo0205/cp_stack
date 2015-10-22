@@ -7,10 +7,10 @@ run the program pilha.compile
 #language
 Have three commands
 
-pop ( number) OR pop number
+pop ( number) OR pop number <br>
 Where number is a integer value
 
 push
 
-list
+list <br>
 list all values
