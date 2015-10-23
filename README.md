@@ -1,5 +1,5 @@
 # cp_stack
-Simple language for the data stuture stack
+Simple language for the data struture stack
 
 #Compile 
 run the program pilha.compile
