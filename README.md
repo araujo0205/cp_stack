@@ -15,3 +15,6 @@ return number value <br>
 
 list <br>
 list all values
+
+#requeriments
+cc compiler, lex and yacc library (I using flex e byacc)
