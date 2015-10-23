@@ -10,7 +10,7 @@ Have three commands
 pop ( number) OR pop number <br>
 Where number is a integer value and return number value
 
-push
+push <br>
 return number value <br>
 
 list <br>
