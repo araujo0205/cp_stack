@@ -17,4 +17,4 @@ list <br>
 list all values
 
 #requeriments
-cc compiler, lex and yacc library (I using flex e byacc)
+cc compiler, lex and yacc library (I using flex and byacc library)
